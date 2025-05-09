@@ -1,11 +1,21 @@
 [project]
 name = "platzi-langchain"
 version = "0.1.0"
-description = "LangChain AI Agent"
+description = "LangChain"
 authors = [{ name = "Jason", email = "jasonssdev@gmail.com" }]
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [""]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "notebook",
+    "ipykernel",
+    "ipywidgets",
+    "pathlib",
+]
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
