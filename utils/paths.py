@@ -1,7 +1,11 @@
+# paths.py
 from pathlib import Path
 
 # Project Root
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+# environment variables
+ENV_PATH = PROJECT_ROOT / ".env"
 
 # Directories paths
 DATA_DIR = PROJECT_ROOT / "data"
