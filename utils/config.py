@@ -1,7 +1,7 @@
 # config.py
 import os
 from dotenv import load_dotenv, find_dotenv
-from paths import ENV_PATH
+from utils.paths import ENV_PATH
 
 
 dotenv_path = ENV_PATH

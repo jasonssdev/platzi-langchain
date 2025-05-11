@@ -15,6 +15,17 @@ dependencies = [
     "ipykernel",
     "ipywidgets",
     "pathlib",
+    "langchain",
+    "transformers",
+    "einops",
+    "accelerate",
+    "langchain-huggingface",
+    "openai",
+    "langchain-openai",
+    "tiktoken",
+    "langchain-community",
+    "pypdf",
+    "chromadb"
 ]
 
 [build-system]
